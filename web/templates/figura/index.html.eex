@@ -1,0 +1,7 @@
+<div id="pageSection" class="jumbotron" pageid="figura_p">
+  <h2><%= gettext "%{name}", name: "Figura comunicada" %></h2>
+</div>
+<div id="contenedor">
+  <div id="figura-comunicada">
+  </div>
+</div>

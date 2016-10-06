@@ -1,0 +1,12 @@
+<div id="pageSection" class="jumbotron" pageid="canvas_p">
+  <h2><%= gettext "%{name}", name: "Verde con Gris" %></h2>
+</div>
+<div id="canvasContainer">
+	<div id="interfaz">
+	</div>
+	<div id="cantidad">
+		<p id="normal">10000<span id="score">/0</span></p>
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="<%= static_path(@conn, "/js/app.js") %>"></script>
